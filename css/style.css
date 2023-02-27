@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+#header {
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    background: #E5E5E5;
+    z-index: 100;
+    animation: header 2s alternate;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(1200px);
+    }
+    100% {
+
+    }
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-nav h1 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 84px;
+    padding-left: 16px;
+}
+
+.header-nav a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 26px;
+    transition: .5s;
+}
+
+.header-nav a:hover {
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.header-btn button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 102px;
+    height: 43px;
+}
+
+.header-btn-2 button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background: #02897A;
+    border-radius: 4px;
+    width: 110px;
+    height: 43px;
+    margin-left: 30px;
+}
+
+
+.alar {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+}
+
+
+.header ion-icon {
+    color: #F3F3F3;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    margin-left: 30px;
+    background: #02897A;
+}
+
+.hero {
+    padding-top: 145px;
+}
+
+.Work {
+    display: flex;
+    align-items: center;
+}
+
+.Work h1 {
+    width: 518px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+
+.Work p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 458px;
+    color: #22343D;
+    padding: 18px 0 45px 0;
+}
+
+
+.hero-btn button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+}
+
+.hero-btn-2 button {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #02897A;
+    margin-left: 30px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-two h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+    padding-top: 140px;
+}
+
+.block h1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+    padding: 25px 0 13px 0;
+}
+
+.block p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 240px;
+    color: #22343D;
+}
+
+.block-1 h1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+    padding: 25px 0 13px 0;
+}
+
+.block-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 240px;
+    color: #22343D;
+}
+
+.block-2 h1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+    padding: 25px 0 13px 0;
+}
+
+.block-2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 240px;
+    color: #22343D;
+}
+
+.block-3 h1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+    padding: 25px 0 13px 0;
+}
+
+.block-3 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 240px;
+    color: #22343D;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 66px 0 60px 0;
+}
+
+.block-btn {
+    font-weight: 700;
+    font-size: 16px;
+    background: #02897A;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    color: #FFFFFF;
+}
+
+#hero-two{
+    padding: 50px 0;
+    background: url("../img-2/Bg.png") no-repeat bottom/cover;
+    min-height: 60vh;
+}
+
+.most h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+}
+
+.most h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+    padding: 8px 0 23px 0;
+}
+
+.most p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.most h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 30px 0 12px 0;
+}
+
+.most p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.most h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 25px 0 12px 0;
+}
+
+.most p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.most {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#most {
+    padding-top: 169px;
+}
+
+.make {
+    display: flex;
+    justify-content: space-between;
+}
+
+#make {
+    padding-top: 150px;
+}
+
+.customers h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+}
+
+.customers h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+    padding: 8px 0 23px 0;
+}
+
+.customers p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.ptichka-1 {
+    display: flex;
+    padding-top: 30px;
+}
+
+.ptichka-2 {
+    display: flex;
+    padding: 30px 0 30px 0;
+}
+
+.ptichka-3 {
+    display: flex;
+}
+
+.ptichka-1 p {
+    padding-left: 30px;
+}
+
+.ptichka-2 p {
+    padding-left: 30px;
+}
+
+.ptichka-3 p {
+    padding-left: 30px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+}
+
+#for {
+    padding-top: 186px;
+}
+
+.for h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+}
+
+.for h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+    padding: 8px 0 23px 0;
+}
+
+.for p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.for h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 30px 0 12px 0;
+}
+
+.for p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.for h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 25px 0 12px 0;
+}
+
+.for p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.for {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quick {
+    padding-top: 170px;
+}
+
+.guick h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+    text-align: center;
+}
+
+.quick p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343D;
+    padding: 16px 0 30px 0;
+}
+
+.care {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    width: 274px;
+    height: 53px;
+    margin-left: 16px;
+}
+.care p {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2F281E;
+}
+.take {
+    display: flex;
+    align-items: center;
+}
+
+.your {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    width: 274px;
+    height: 53px;
+    margin-right: 16px;
+}
+
+.your p {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2F281E;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+}
+
+.takes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.can {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    width: 274px;
+    height: 53px;
+    margin-right: 16px;
+}
+
+.can p {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2F281E;
+}
+
+.design {
+    display: flex;
+    align-items: center;
+}
+
+.we {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26.5px;
+    width: 274px;
+    height: 53px;
+    margin-left: 16px;
+}
+
+.we p {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2F281E;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+}
+.designs {
+    display: flex;
+    justify-content: space-around;
+    padding: 58px 0 45px 0;
+}
